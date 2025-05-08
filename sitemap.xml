@@ -1,39 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
-    <loc>https://subhan-portfolio-eight.vercel.app/</loc>
-    <priority>1.0</priority>
+    <loc>https://subhan-portfolio-eight.vercel.app/</loc> <!-- Halaman utama -->
   </url>
-
   <url>
-    <loc>https://subhan-portfolio-eight.vercel.app/tips-belajar-ngoding-web.html</loc>
-    <priority>0.8</priority>
+    <loc>https://subhan-portfolio-eight.vercel.app/tips-belajar-ngoding-web.html</loc> <!-- Halaman tips ngoding web -->
   </url>
-
   <url>
-    <loc>https://subhan-portfolio-eight.vercel.app/tips-belajar-desain-web.html</loc>
-    <priority>0.8</priority>
+    <loc>https://subhan-portfolio-eight.vercel.app/tips-belajar-desain-web.html</loc> <!-- Halaman tips desain web -->
   </url>
-
   <url>
-    <loc>https://subhan-portfolio-eight.vercel.app/tips-belajar-content-writing.html</loc>
-    <priority>0.8</priority>
+    <loc>https://subhan-portfolio-eight.vercel.app/cara-belajar-jadi-editor.html</loc> <!-- Halaman tips jadi editor -->
   </url>
-
   <url>
-    <loc>https://subhan-portfolio-eight.vercel.app/cara-belajar-jadi-editor.html</loc>
-    <priority>0.8</priority>
+    <loc>https://subhan-portfolio-eight.vercel.app/cara-belajar-digital-marketing.html</loc> <!-- Halaman digital marketing -->
   </url>
-
   <url>
-    <loc>https://subhan-portfolio-eight.vercel.app/cara-belajar-digital-marketing.html</loc>
-    <priority>0.8</priority>
+    <loc>https://subhan-portfolio-eight.vercel.app/cara-membuat-produk-digital.html</loc> <!-- Halaman produk digital -->
   </url>
-
   <url>
-    <loc>https://subhan-portfolio-eight.vercel.app/cara-membuat-produk-digital.html</loc>
-    <priority>0.8</priority>
+    <loc>https://subhan-portfolio-eight.vercel.app/tips-belajar-content-writing.html</loc> <!-- Halaman content writing -->
   </url>
-
 </urlset>
