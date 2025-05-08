@@ -17,6 +17,11 @@
   </url>
 
   <url>
+    <loc>https://subhan-portfolio-eight.vercel.app/tips-belajar-content-writing.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://subhan-portfolio-eight.vercel.app/cara-belajar-jadi-editor.html</loc>
     <priority>0.8</priority>
   </url>
@@ -28,11 +33,6 @@
 
   <url>
     <loc>https://subhan-portfolio-eight.vercel.app/cara-membuat-produk-digital.html</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://subhan-portfolio-eight.vercel.app/tips-belajar-content-writing.html</loc>
     <priority>0.8</priority>
   </url>
 
