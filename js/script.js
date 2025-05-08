@@ -1,13 +1,3 @@
-/* 
-Project Name: Modern Portfolio Website
-Description: A complete responsive modern portfolio website design
-             by using HTML CSS and Vanilla JavaScript from scratch.
-Author: Md Al Amin Hossen
-Github: https://github.com/MdRasen
-License: MIT License
-Copyright: 2023 ©MdRasen 
-*/
-
 // Typing animation
 var typed = new Typed(".typing", {
   strings: [
@@ -91,3 +81,54 @@ function asideSectionTogglerBtn() {
   aside.classList.toggle("open");
   navTogglerBtn.classList.toggle("open");
 }
+
+// ngasal
+const form = document.getElementById("contactForm");
+const alertBox = document.getElementById("alertBox");
+const alertMessage = document.getElementById("alertMessage");
+const alertIcon = document.getElementById("alertIcon");
+
+form.addEventListener("submit", async function (e) {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch("https://formspree.io/f/movddyvg", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+      },
+      body: formData,
+    });
+
+    if (response.ok) {
+      showAlert("Pesan berhasil dikirim!", "success");
+      form.reset();
+    } else {
+      showAlert("Gagal mengirim pesan. Coba lagi ya!", "error");
+    }
+  } catch (error) {
+    showAlert("Terjadi kesalahan: " + error.message, "error");
+  }
+});
+
+function showAlert(message, type) {
+  alertBox.style.display = "flex";
+  alertMessage.textContent = message;
+
+  if (type === "success") {
+    alertBox.className = "alert-box alert-success";
+    alertIcon.textContent = "✅";
+  } else {
+    alertBox.className = "alert-box alert-error";
+    alertIcon.textContent = "⚠️";
+  }
+
+  setTimeout(() => {
+    alertBox.style.display = "none";
+  }, 5000);
+}
+
+//ngasal end
+

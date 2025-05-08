@@ -951,5 +951,260 @@ h3.my-profession {
     font-size: 18px;
   }
 }
+.character-glow {
+  filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.6)) 
+          drop-shadow(0 0 20px rgba(0, 255, 255, 0.4)) 
+          drop-shadow(0 0 30px rgba(0, 255, 255, 0.2));
+  animation: glowMove 2s ease-in-out infinite alternate;
+}
+
+@keyframes glowMove {
+  0% {
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.3))
+            drop-shadow(0 0 20px rgba(0, 255, 255, 0.2))
+            drop-shadow(0 0 30px rgba(0, 255, 255, 0.1));
+  }
+  100% {
+    filter: drop-shadow(0 0 15px rgba(0, 255, 255, 0.7))
+            drop-shadow(0 0 25px rgba(0, 255, 255, 0.5))
+            drop-shadow(0 0 35px rgba(0, 255, 255, 0.3));
+  }
+}
+.typing {
+  color: #fff;
+  text-shadow:
+    0 0 5px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff;
+  animation: glowPulse 2s infinite alternate;
+}
+
+@keyframes glowPulse {
+  from {
+    text-shadow:
+      0 0 5px #0ff,
+      0 0 10px #0ff,
+      0 0 20px #0ff;
+  }
+  to {
+    text-shadow:
+      0 0 10px #0ff,
+      0 0 20px #0ff,
+      0 0 30px #0ff;
+  }
+}
+.btn {
+  display: inline-block;
+  background-color: #0ff;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  transition: all 0.3s ease-in-out;
+  animation: btnGlow 2s infinite alternate;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+  transform: scale(1.05);
+}
+
+@keyframes btnGlow {
+  0% {
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  }
+  100% {
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+  }
+}
+.blog-item-inner {
+  border: 2px solid #0ff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-item-inner:hover {
+  box-shadow: 0 0 15px #0ff, 0 0 30px #0ff;
+  transform: translateY(-5px);
+}
+.post-row {
+  border: 2px solid #0ff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #0ff, 0 0 16px #0ff;
+  margin-bottom: 15px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.post-row:hover {
+  box-shadow: 0 0 12px #0ff, 0 0 24px #0ff;
+  transform: translateY(-4px);
+}
+/* Untuk post-row */
+.post-row {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Untuk gambar di post-row */
+.post-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Mengatur elemen post-desc supaya menyesuaikan */
+.post-desc {
+  flex: 1; /* Mengisi ruang yang tersisa */
+}
+
+/* Jika menggunakan flexbox untuk kontainer post */
+.recent-posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Jarak antar item */
+}
+
+.post-row {
+  flex: 1 1 calc(33.33% - 20px); /* 3 kolom per baris */
+  margin-bottom: 20px;
+}
+
+/* ngasal */
+/* Container untuk baris service items */
+.service-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Jarak antar box */
+}
+
+/* Setiap service item */
+.service-item {
+  flex: 1 1 calc(33.33% - 30px); /* 3 box per baris */
+  margin-bottom: 30px; /* Jarak antar baris */
+}
+
+/* Service item inner */
+.service-item-inner {
+  position: relative;
+  padding: 20px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6); /* Glow cyan default */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 350px;
+}
+
+/* Glow efek saat hover */
+.service-item-inner:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 1);
+  border-color: rgba(0, 255, 255, 1);
+}
+
+/* Ikon */
+.service-item-inner .icon {
+  font-size: 40px;
+  color: #00bcd4;
+  margin-bottom: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Mengubah warna ikon saat hover */
+.service-item-inner:hover .icon {
+  color: #ff5722;
+}
+
+/* Title dan deskripsi */
+.service-item-inner h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.service-item-inner p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.service-item-inner .icon, .service-item-inner h4, .service-item-inner p {
+  margin: 0;
+}
+
+.portfolio-item .portfolio-item-innner {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item .portfolio-img img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover .portfolio-img img {
+  transform: scale(1.05); /* Efek zoom */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Efek glow */
+}
+
+/* Portfolio Item */
+.portfolio-item-innner {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.7), 0 0 40px rgba(0, 255, 255, 0.5); /* Glow lebih terang */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Efek hover untuk portfolio item */
+.portfolio-item-innner:hover {
+  box-shadow: 0 0 40px rgba(0, 255, 255, 1), 0 0 60px rgba(0, 255, 255, 0.8); /* Glow sangat terang */
+  transform: translateY(-5px); /* Efek mengangkat */
+}
+
+/* Efek hover pada gambar */
+.portfolio-img img:hover {
+  transform: scale(1.05); /* Membesarkan gambar sedikit saat hover */
+}
+
+
+.alert-box {
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .alert-success {
+    background-color: #e6ffed;
+    color: #2d7a41;
+    border-left: 6px solid #2ecc71;
+  }
+
+  .alert-error {
+    background-color: #ffe6e6;
+    color: #a94442;
+    border-left: 6px solid #e74c3c;
+  }
+
+
+
+
+/*ngasal*/
+
+
 
 /* Device Responsive End */
