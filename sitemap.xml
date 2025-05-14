@@ -1,43 +1,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
-  <loc>https://www.mydigitechvibes.my.id/</loc>
-  <lastmod>2025-05-09T11:39:52+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://www.mydigitechvibes.my.id/</loc>
+<lastmod>2025-05-14T06:31:28+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.mydigitechvibes.my.id/index.html</loc>
-  <lastmod>2025-05-09T11:39:52+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.mydigitechvibes.my.id/index.html</loc>
+<lastmod>2025-05-14T06:31:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mydigitechvibes.my.id/tips-belajar-desain-web.html</loc>
-  <lastmod>2025-05-09T11:39:52+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.mydigitechvibes.my.id/cara-cuan-modal-internet.html</loc>
+<lastmod>2025-05-14T06:31:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mydigitechvibes.my.id/tips-belajar-ngoding-web.html</loc>
-  <lastmod>2025-05-09T11:39:53+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.mydigitechvibes.my.id/tips-belajar-desain-web.html</loc>
+<lastmod>2025-05-14T06:31:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mydigitechvibes.my.id/tips-belajar-content-writing.html</loc>
-  <lastmod>2025-05-09T11:39:53+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.mydigitechvibes.my.id/tips-belajar-ngoding-web.html</loc>
+<lastmod>2025-05-14T06:31:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mydigitechvibes.my.id/cara-belajar-jadi-editor.html</loc>
-  <lastmod>2025-05-09T11:39:53+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.mydigitechvibes.my.id/tips-belajar-content-writing.html</loc>
+<lastmod>2025-05-14T06:31:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mydigitechvibes.my.id/cara-belajar-digital-marketing.html</loc>
-  <lastmod>2025-05-09T11:39:53+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.mydigitechvibes.my.id/cara-belajar-jadi-editor.html</loc>
+<lastmod>2025-05-14T06:31:29+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.mydigitechvibes.my.id/cara-membuat-produk-digital.html</loc>
-  <lastmod>2025-05-09T11:39:53+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.mydigitechvibes.my.id/cara-belajar-digital-marketing.html</loc>
+<lastmod>2025-05-14T06:31:30+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.mydigitechvibes.my.id/cara-membuat-produk-digital.html</loc>
+<lastmod>2025-05-14T06:31:30+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 </urlset>
